@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-bg{
+    background:#F5DEB3;
+}
+
+.menu{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo a{
+    color:#FA8072;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a{
+    color:#FA8072;
+    font-size: 1.25em;
+    padding: 0px;
+    margin: 0 10px;
+}
+
+.menu-logo a:hover{
+    font-size: 50px;
+}
+
+.menu-nav a:hover{
+    color:#FA8072;
+}
+
+
+
+.primeira{
+    max-width: 1000px;
+    margin:0 auto;
+    padding: 60px 0 60px;
+}
+
+.coluna{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.segunda img:hover{
+   padding: 0;
+   border: 10px solid #FFDAB9;
+}
+
+.segunda img{
+    width: 200px;
+    height: auto;
+    padding: 0 20px 0;
+    margin: 0 10px;
+}
+
+.terca img:hover{
+    padding: 0;
+    border: 10px solid #FFDAB9;
+}
+
+.terca img{
+    width: 200px;
+    height: 200px;
+    padding: 0 20px 0;
+    margin: 0 10px 0;
+}
+
+.quarta img:hover{
+    padding: 0;
+    border: 10px solid #FFDAB9;
+}
+
+.quarta img{
+    width: 200px;
+    height: 200px;
+    padding: 0 20px 0;
+    margin: 0 10px 0;
+}
+
+.quinta img:hover{
+    padding:0;
+    border: 10px solid #FFDAB9;
+}
+
+.quinta img{
+    width: 200px;
+    height: 200px;
+    padding: 0 20px 0;
+    margin: 0 10px 0;
+}
+
+footer{
+    text-align: center;
+    background: #FFDAB9;
+    padding: 20px 0 0;
+   
+}
+
+footer-logo{
+    font-size: 40px;
+}
+.direitos{
+    background: #FFDAB9;
+    color:#1C1C1C;
+    font-size: 13px;
+    margin-top: 20px;
+    padding: 20px 0px;
+}
+
+@media (max-width: 800px) {
+    .menu-logo a{
+        display: flex;
+    }
+    .menu-nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .coluna{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+    /* eixo principal (esquerda e direita) */
+   /* align-items: center; eixo secundario ( emcima e baixo)*/
+     /* coluna */ 
